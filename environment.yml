@@ -1,0 +1,18 @@
+name: kagcredit
+channels:
+    - conda-forge
+dependencies:
+    - python==3.5
+    - pandas==0.19.2
+    - scikit-learn==0.18.1
+    - nb_conda
+    - jupyter
+    - matplotlib
+    - xlrd
+    - py-xgboost
+    - hdbscan
+    - pip:
+        - click
+        - ml_metrics
+        - sklearn-evaluation
+        - seaborn
