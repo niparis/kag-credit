@@ -74,7 +74,7 @@ ALGOS = {
     'xgb': (xgb.XGBClassifier,
             {
                 'learning_rate': 0.025,
-                'n_estimators': 400,
+                'n_estimators': 600,
                 'seed': 0,
                 'subsample': 0.8,
                 'colsample_bytree': 0.8,
